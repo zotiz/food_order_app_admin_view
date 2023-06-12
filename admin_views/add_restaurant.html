@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Add Restaurant</title>
+    <script
+      src="https://kit.fontawesome.com/4d88092250.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../admin_styles/foodItem.css" />
+    
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- Add Header Section -->
+      <header>
+        <h1>Add Restaurant</h1>
+        <hr />
+      </header>
+      <br />
+      <main>
+        <!-- add Main Section -->
+
+        <form action="" method="get">
+          <!-- add Form -->
+          <div class="field">
+            <label for="restaurant_name">Restaurant Name:</label>
+
+            <input
+              type="text"
+              id="restaurant_name"
+              name="restaurant_name"
+              required
+              placeholder="Restaurant Name"
+            />
+          </div>
+
+          <div class="field">
+            <label for="restaurant_address">Restaurant Address:</label>
+
+            <textarea
+              id="restaurant_address"
+              name="restaurant_address"
+              rows="4"
+              cols="16"
+              placeholder="Restaurant Address..."
+            ></textarea>
+          </div>
+
+          <div class="field">
+            <label for="contact">Contact No:</label>
+            <input
+              type="tel"
+              id="contact"
+              name="contact"
+              required
+              placeholder="Phone Number"
+            />
+          </div>
+          <div class="field">
+            <label for="img">Restaurant Image:</label>
+            <input type="file" id="img" name="image" />
+          </div>
+
+          <!-- button  -->
+          <div class="btns">
+            <button type="reset">Discard</button>
+            <button type="submit">Save</button>
+          </div>
+        </form>
+      </main>
+      <footer>
+        <a href="admin_page.html">
+          <i class="fa-sharp fa-solid fa-arrow-left"></i>
+          &nbsp;&nbsp;Go Back
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Restaurant Menu</title>
+    <script
+      src="https://kit.fontawesome.com/4d88092250.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../admin_styles/style.css" />
+    <link rel="stylesheet" href="../admin_styles/form.css">
+    <link rel="stylesheet" href="../admin_styles/addMenu.css">
+    
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <!-- add header -->
+        <h1>Add Menu</h1>
+        <hr />
+      </header>
+    
+        <form action="" method="get" id="myForm">
+          <!-- add form -->
+
+          <label for="restaurant">Select Restaurant</label>
+      
+
+          <select name="restaurant" id="restaurant">
+            <option value="food_town">Food Town</option>
+            <option value="green_leaf_hotel">Green Leaf Hotel</option>
+            <option value="kignston_hotel">Kignston Hotel</option>
+            <option value="china_town">China Town</option>
+            <option value="olive_garden">Oliv Garden</option>
+          <option value="chipotle_maxican_grill">Maxican Grill</option>
+          <option value="asian_buffet">Asian Buffet</option>
+          <option value="star_india_restaurant">Star India</option>
+          <option value="tandoor">Tandoor</option>
+          <option value="yutaka_sushi_bistro">Yutaka Sushi Bistro</option>
+          <option
+            value="
+          yu_xue_chinese_restaurant"
+          >
+            Yu Xue Chinese
+          </option>
+          <option
+            value="
+            Del Taco"
+          >
+            Del Taco
+          </option>
+          </select>
+          <div class="table-wrapper">
+            <div class="card">
+              <input type="checkbox" id="veg_pizza" name="veg_pizza" />
+              <img src="https://qph.cf2.quoracdn.net/main-qimg-0a74de9778c392883e4bb116af23b2e5-pjlq" alt="veg pizza" />
+              <div class="card-info">
+                <h4>Veg Pizza</h4>
+                <p>Price: $10</p>
+              </div>
+            
+              <input type="number" id="veg_pizza_number" name="veg_pizza_number" value="0" min="0" max="100"/>
+            </div>
+        
+             <div class="card">
+              <input type="checkbox" id="hot_sour_soup" name="hot_sour_soup" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Ping_SJ_hot_%26_sour_soup.JPG" alt="hot sour soup" />
+              <div class="card-info">
+                <h4>Hot & Sour Soup</h4>
+                <p>Price: $8</p>
+              </div>
+              <input type="number" id="hot_sour_soup_number" name="hot_sour_soup_number"
+              value="0" min="0" max="100" />
+            </div>
+
+            <div class="card">
+              <input type="checkbox" id="lasagna_sandwich" name="lasagna_sandwich" />
+              <img src="https://assets.bonappetit.com/photos/613235964a6a69e9fc1fc229/1:1/w_1124,h_1124,c_limit/Inside%20Out%20Kimchi%20Grilled%20Cheese.jpg" alt="lasagna sandwich" />
+              <div class="card-info">
+                <h4>Lasagna Sandwich</h4>
+                <p>Price: $12</p>
+                </div>
+                <input type="number" id="lasagna_sandwich_number" name="lasagna_sandwich_number"
+                value="0" min="0" max="100" />
+            </div>
+            <div class="card">
+              <input type="checkbox" id="chick_fil_sandwich" name="chick_fil_sandwich" />
+              <img src="https://www.theslowroasteditalian.com/wp-content/uploads/2021/07/Chick-Fil-A-Spicy-Chicken-Sandwich-SQUARE-500x375.jpg" alt="chick fil a sandwich" />
+              <div class="card-info">
+                  <h4>Chick-Fil-A-Sandwich</h4>
+                  <p>Price: $9</p>
+              </div>
+              <input type="number" id="chick_fil_sandwich_number" name="chick_fil_sandwich_number" 
+              value="0" min="0" max="100"/>
+          </div>
+      
+          <div class="card">
+              <input type="checkbox" id="grilled_mac_cheese_sandwich" name="grilled_mac_cheese_sandwich" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxQ-PpNYdKYZhMYfyxNUAPEz6qEE3ochyTA10joe6gBg&usqp=CAU&ec=48665701" alt="grilled mac cheese sandwich" />
+              <div class="card-info">
+                  <h4>Grilled Mac & Cheese Sandwich</h4>
+                  <p>Price: $11</p>
+              </div>
+              <input type="number" id="grilled_mac_cheese_sandwich_number" name="grilled_mac_cheese_sandwich_number"
+              value="0" min="0" max="100" />
+          </div>
+      
+          <div class="card">
+              <input type="checkbox" id="italian_pasta_salad" name="italian_pasta_salad" />
+              <img src="https://thewoodenskillet.com/wp-content/uploads/2016/07/zesty-italian-pasta-salad-1.jpg" alt="italian pasta salad" />
+              <div class="card-info">
+                  <h4>Italian Pasta Salad</h4>
+                  <p>Price: $7</p>
+              </div>
+              <input type="number" id="italian_pasta_salad_number" name="italian_pasta_salad_number"
+              value="0" min="0" max="100" />
+          </div>
+      
+          <div class="card">
+              <input type="checkbox" id="creamy_tomato_soup" name="creamy_tomato_soup" />
+              <img src="https://midwestfoodieblog.com/wp-content/uploads/2020/10/FINAL-creamy-tomato-soup-1-5.jpg" alt="creamy tomato soup" />
+              <div class="card-info">
+                  <h4>Creamy Tomato Soup</h4>
+                  <p>Price: $6</p>
+              </div>
+              <input type="number" id="creamy_tomato_soup_number" name="creamy_tomato_soup_number" 
+              value="0" min="0" max="100"/>
+          </div>
+          <div class="card">
+            <input type="checkbox" id="chips_salsa" name="chips_salsa" />
+            <img src="https://static.toiimg.com/thumb/60435189.cms?width=1200&height=900" alt="chips & salsa" />
+            <div class="card-info">
+                <h4>Chips & Salsa</h4>
+                <p>Price: $5</p>
+              </div>
+              <input type="number" id="chips_salsa_number" name="chips_salsa_number"
+              value="0" min="0" max="100" />
+          </div>
+          <div class="card">
+            <input type="checkbox" id="garlic_bread" name="garlic_bread" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjLge_YBzFAs-E5K8YAN_8FC0HMOq4uJPOg4dXqfnJOg&usqp=CAU&ec=48665701" alt="garlic bread" />
+            <div class="card-info">
+                <h4>Garlic Bread</h4>
+                <p>Price: $4</p>
+            </div>
+            <input type="number" id="garlic_bread_number" name="garlic_bread_number"
+            value="0" min="0" max="100" />
+        </div>
+        
+        <div class="card">
+            <input type="checkbox" id="chocolate_cake" name="chocolate_cake" />
+            <img src="https://www.southernliving.com/thmb/5Ex9tVeElP2VmpYTrxCaurx__uM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Southern-Living_Chocolate_Cake_001-t-24112967d1c44d50a35e0568228d7e3e.jpg" alt="chocolate cake" />
+            <div class="card-info">
+                <h4>Chocolate Cake</h4>
+                <p>Price: $6</p>
+            </div>
+            <input type="number" id="chocolate_cake_number" name="chocolate_cake_number"
+            value="0" min="0" max="100" />
+        </div>
+        
+        <div class="card">
+            <input type="checkbox" id="fruit_salad" name="fruit_salad" />
+            <img src="https://www.californiastrawberries.com/wp-content/uploads/2021/05/Rainbow-Fruit-Salad-1024-500x500.jpg" alt="fruit salad" />
+            <div class="card-info">
+                <h4>Fruit Salad</h4>
+                <p>Price: $8</p>
+            </div>
+            <input type="number" id="fruit_salad_number" name="fruit_salad_number" 
+            value="0" min="0" max="100"/>
+        </div>
+        
+        
+          </div>
+          
+          <!--button-->
+          <div class="btns">
+            <button type="reset">Discard</button>
+          <button type="submit">Add To Menu</button>
+          </div>
+          
+        </form>
+    
+ 
+
+      <footer>
+        <!-- footer -->
+        <a href="admin_page.html">
+          <i class="fa-sharp fa-solid fa-arrow-left"></i>
+          &nbsp;&nbsp;Go Back
+        </a>
+      </footer>
+    </div>
+    </div>
+  </body>
+</html>

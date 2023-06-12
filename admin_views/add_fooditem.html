@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add FoodItem</title>
+    <script
+      src="https://kit.fontawesome.com/4d88092250.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../admin_styles/foodItem.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <!-- Add Header Section -->
+        <h1>Add FoodItem</h1>
+        <hr />
+      </header>
+
+      <!-- add main Section -->
+      <main>
+        <h3>FoodItem Information</h3>
+        <form action="" method="get">
+          <div class="field">
+            <label for="food_name">FoodItem Name:</label>
+            <input
+              type="text"
+              id="food_name"
+              name="food_name"
+              required
+              placeholder="Food Name"
+            />
+          </div>
+
+          <div class="field">
+            <label for="food_desc">FoodItem Description:</label>
+            <textarea
+              id="food_desc"
+              name="food_description"
+              rows="4"
+              cols="16"
+              placeholder="Food Description..."
+            ></textarea>
+          </div>
+
+          <div class="checkbox-field">
+            <label for="available">Available?</label>
+            <input type="checkbox" id="available" name="available" />
+          </div>
+
+          <div class="checkbox-field">
+            <label for="veg">Vegeterian?</label>
+            <input type="checkbox" id="veg" name="Vegeterian" />
+          </div>
+
+          <div class="field">
+            <label for="category">Category:</label>
+
+            <select name="category" id="category">
+              <option value="pizza">Pizza</option>
+              <option value="Pasta">Pasta</option>
+              <option value="sandwich">Sandwich</option>
+              <option value="soup">Soup</option>
+              <option value="chip_salsa">Chips & Salsa</option>
+              <option value="samosa_chat">Samosa Chat</option>
+              <option value="chicken_momo">Chicken Mo:Mo</option>
+              <option value="chicken_biryani">Chicken Biryani</option>
+              <option value="checken_bowl">Chicken Bowl</option>
+              <option value="taco_bell">Taco-Bell</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="cuisine">Cuisine:</label>
+
+            <select name="cuisine" id="cuisine">
+              <option value="italian">Italian</option>
+              <option value="thai">Thai</option>
+              <option value="chinese">Chinese</option>
+              <option value="mexican">Mexican</option>
+              <option value="asian">Asian</option>
+              <option value="indian">Indian</option>
+              <option value="japanese">Japanese</option>
+              <option value="korean">Korean</option>
+              <option value="nepalese">Nepalese</option>
+              <option value="french">French</option>
+              <option value="american">American</option>
+              <option value="african">African</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="img">Image URL:</label>
+            <input type="url" id="img" name="image" placeholder="URL" />
+          </div>
+
+          <div class="btns">
+            <button type="reset">Discard</button>
+            <button type="submit">Save</button>
+          </div>
+        </form>
+      </main>
+      <!-- footer -->
+      <footer>
+        <a href="admin_page.html">
+          <i class="fa-sharp fa-solid fa-arrow-left"></i>
+          &nbsp;&nbsp;Go Back
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>

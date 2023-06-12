@@ -1,0 +1,27 @@
+.card{
+ padding:10px 0 0;
+}
+.card-content{
+  width:100%;
+  padding:0 14px 12px;
+  text-align: left;
+  background:rgb(247, 187, 167);
+  background: #90d387;
+  color:white;
+  border:none;
+}
+.card-title{
+  padding:12px 0 4px;
+  color:rgb(76, 76, 76);
+}
+.card-description{
+ color:rgb(42, 42, 42);
+ 
+}
+.card-status{
+  color:rgb(64, 5, 5); 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  flex-wrap: wrap;
+}

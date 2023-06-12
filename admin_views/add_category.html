@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Category</title>
+    <script
+      src="https://kit.fontawesome.com/4d88092250.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../admin_styles/foodItem.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <!-- Add Header Section -->
+        <h1>Add Category</h1>
+        <hr />
+      </header>
+      <br />
+       <!-- add main Section -->
+      <main>
+       
+        <!-- add Form -->
+        <form action="" method="GET">
+          <div class="field">
+            <label for="category_name">Category Name:</label>
+            <input
+              type="text"
+              id="category_name"
+              name="category_name"
+              required
+              placeholder="Category Name"
+            />
+          </div>
+          <div class="field">
+            <label for="category_desc">Category Description:</label>
+            <textarea
+              id="category_desc"
+              name="category_description"
+              rows="4"
+              cols="16"
+              placeholder="Category Description..."
+            ></textarea>
+          </div>
+          <div class="checkbox-field">
+            <label for="active">Is Active</label>
+            <input type="checkbox" id="active" />
+          </div>
+          <div class="field">
+            <label for="img">Image URL:</label>
+            <input type="url" id="img" name="image" placeholder="URL" />
+          </div>
+          <div class="btns">
+            <button type="reset">Discard</button>
+            <button type="submit">Save</button>
+          </div>
+        </form>
+      </main>
+      <!-- footer -->
+      <footer>
+        <a href="admin_page.html">
+          <i class="fa-sharp fa-solid fa-arrow-left"></i>
+          &nbsp;&nbsp;Go Back
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>
