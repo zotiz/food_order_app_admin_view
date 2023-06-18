@@ -1,4 +1,5 @@
 body {
+
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
 }
@@ -64,25 +65,34 @@ input[type="number"]{
   display:flex;
   justify-content:space-between;
   align-items:center;
-
+  
 }
 button{
   max-width:35%;
+  width: 200px;
   font-size:18px;
-  padding:8px 12px;
-  border-radius:10px;
+  padding:6px 8px;
+  border-radius:8px;
   border:none;
-  background-color:#7045f4;
+  /*background-color:#7045f4;*/
+  background-color:#ef2f38;
+  border:2px solid #ef2f38;
   color:white;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 button:hover {
-  background: #4f20da
+  background: #ffffff;
+  border:2px solid #ef2f38;
+  color:#ef2f38;
 }
 @media (max-width: 768px) {
   .card img {
     max-width: 80px;
+  }
+  button{
+    max-width: 100%;
+    margin:10px;
   }
 }
 @media (max-width: 500px){
@@ -113,5 +123,6 @@ button:hover {
   }
 button{
   font-size:14px;
+  width: 100%;
 }
 }

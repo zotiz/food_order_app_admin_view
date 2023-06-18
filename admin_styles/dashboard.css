@@ -20,7 +20,8 @@ body{
   justify-content:center;
   align-items:center;
   flex-direction:column;
-  background-color:#f1e8c0;
+  /*background-color:#f1e8c0;*/
+  background-color: #53c8b3;
   border-radius: 10px;
   border:1px solid rgb(187, 183, 183);
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
@@ -44,9 +45,10 @@ body{
    justify-content: space-around; 
    align-items: center; 
    flex-direction:column;
-   background-color:#9c7cfc;
+
+   background-color:#d4fcff;
    padding:16px 10px;
-   color:#f3f3f3;
+   color:#ef2f38;
    font-family:Arial, Helvetica, sans-serif;
    min-height: 200px;
    border-radius: 10px;
@@ -114,32 +116,38 @@ body{
 a[href]{
   text-decoration: none;
   padding:8px 16px;
-  border-radius:20px;
+  border-radius:10px;
   font-size:15px;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-  background-color: #d5f8ff;
-  color:#232323;
-  
+  background-color: #ffffff;
+  color:#ef2f38;
+  border:1.5px solid #ef2f38;
+ 
 }
 
 header {
   width: 100%;
   margin-bottom: 30px;
-  color:#4a4160;
+  color:#ef2f38;
   text-align: start;
   font-family:Arial, Helvetica, sans-serif
   
 }
 h2{
   text-align: center;
-  text-shadow:1px 2px 2px black;
+  text-shadow:1px 2px 2px rgb(255, 250, 250);
+  color:#030303;
+  letter-spacing: 1.5px;
 }
 hr{
   border: none; /* Remove default border */
-  border-top: 2px solid #847a9e;
+  border-top: 2px solid #ef2f38;
+  
 }
  a:hover{
-  background-color: #b3d1d6;
+
+  background-color:#ef2f38;
+  color:#ffffff;
  }
 
 
